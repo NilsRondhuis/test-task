@@ -1,0 +1,54 @@
+{
+  "tasks": [
+    {
+      "learn": "Next js",
+      "description": "Video",
+      "id": 1
+    },
+    {
+      "learn": "Vue js",
+      "description": "course",
+      "id": 2
+    },
+    {
+      "learn": "GraphQL",
+      "description": "Books",
+      "id": 3
+    },
+    {
+      "learn": "Typescript",
+      "description": "books",
+      "id": 4
+    }
+  ],
+  "items": [
+    {
+      "text": "На разметке не появляются 2 ли сразу",
+      "id": 1
+    },
+    {
+      "text": "Нормально работает",
+      "id": 2
+    },
+    {
+      "text": "Дата бейс топ",
+      "id": 3
+    },
+    {
+      "text": "Будет классная приложуха по таскам",
+      "id": 4
+    },
+    {
+      "text": "Осталось только придумать дизайн",
+      "id": 5
+    },
+    {
+      "text": "Что то не так с хбс",
+      "id": 6
+    },
+    {
+      "text": "Шаблонные строки он фая",
+      "id": 7
+    }
+  ]
+}

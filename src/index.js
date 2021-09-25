@@ -1,16 +1,32 @@
 import './css/main.scss';
-import serverLs from './data/dataInfo';
-import refs from './js/refs';
-import { onSubmit, createEl } from './js/app';
+import './js/handlers';
 
-const LOCAL_STORAGE = 'task-info';
 
-refs.form.addEventListener('submit', onSubmit);
 
-localStorage.setItem(LOCAL_STORAGE, JSON.stringify(serverLs.dataBase));
-const getStringLs = localStorage.getItem(LOCAL_STORAGE);
-const parseStringLs = JSON.parse(getStringLs);
-console.log(parseStringLs);
+// лоадер
+// let loader = false;
 
-const result = createEl(parseStringLs);
-refs.root.innerHTML = [...result].join('');
+// function getData() {
+//   loader = true;
+//   if (loader) {
+//     renderLoader();
+//   }
+//   fetch("http://localhost:7777/items")
+//     .then((data) => renderData(data))
+//     .finally(() => (loader = false));
+// }
+
+// function renderLoader() {
+//   const loaderEl = document.createElement("h1");
+//   loaderEl.textContent = "Загрузка";
+//   refs.root.appendChild(loaderEl);
+// }
+
+
+// скролл ап
+// let hiddenElement = document.getElementById("box");
+// let btn = document.querySelector(".btn");
+
+// function handleButtonClick() {
+//   hiddenElement.scrollIntoView({ block: 'start', behavior: 'smooth' });
+// }
